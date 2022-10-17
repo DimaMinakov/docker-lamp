@@ -544,7 +544,7 @@ $inv = $_GET['inv'];
  $find = mysqli_query($conn, "select * from oder where ID = '$inv'") or die (mysqli_error($conn));
  
   
- 
+ //algo
   
   echo '</br><table style="border: 1px solid black;"><tr ><th>ID</th><th>Date</th><th>Days</th><th>Adults</th><th>Children</th><th>Swimming pool</th><th>Spa</th><th>Sauna</th><th>Total</th></tr>';
 while  ($showall= mysqli_fetch_assoc($find)) {
